@@ -1,0 +1,17 @@
+.footerchild{
+    width:400px;
+}
+.headquaterclass{
+    color:#ffffff;
+    font:16px muli-regular;
+    line-height: 19px;
+    letter-spacing: 2.3px;
+}
+.addclass{
+    color:white;
+    font:14px muli-light;
+    line-height: 30px;
+    letter-spacing: 0.4px;
+    padding-top: 25px;
+    padding-bottom:50px;
+}

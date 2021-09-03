@@ -1,0 +1,35 @@
+.Input{
+    width:47%;
+    border:none;
+    outline:none;
+    height: 50px;
+    margin: 10px 15px;
+    border-bottom: 2px solid #28a745;
+    font-size: 14px;
+}
+.Input input::placeholder{
+    font-size: 14px;
+}
+.Message{
+    width:96%;
+    border:none;
+    outline:none;
+    border-bottom:2px solid #28a745;
+    margin: 10px 15px;
+    height: 120px;
+    font-size: 14px;
+    position: relative;
+}
+textarea::placeholder{
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+}
+@media screen and (max-width: 426px) and (min-width: 319px) {
+    .Input input[type="text"]{
+        width:91%;
+    }
+    .Message textarea{
+        width:91%;
+    }
+
+}

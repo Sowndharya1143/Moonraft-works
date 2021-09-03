@@ -1,0 +1,11 @@
+.Image{
+    max-width: 28.33%;
+    padding:15px;
+}
+@media screen and (max-width: 426px) and (min-width: 319px) {
+.Image{
+    max-width: unset;
+    width:100%;
+    box-sizing: border-box;
+}
+}

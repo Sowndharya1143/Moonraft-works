@@ -1,0 +1,28 @@
+.footerchild{
+    width:400px;
+}
+.headquaterclass{
+    color:#ffffff;
+    font:16px muli-regular;
+    line-height: 19px;
+    letter-spacing: 2.3px;
+}
+.mailclass{
+    color:white;
+    font:14px muli-light;
+    line-height: 12px;
+    letter-spacing:0.4px;
+    margin:25px 0px;
+    
+}
+.contactclass{
+    color:white;
+    font:14px muli-light;
+    line-height:12px;
+    letter-spacing: 0.4px;
+    
+}
+.mailstyle{
+    margin-right:5px;
+
+}

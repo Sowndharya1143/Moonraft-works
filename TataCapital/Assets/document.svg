@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="60px" height="60px" viewBox="0 0 60 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 52.4 (67378) - http://www.bohemiancoding.com/sketch -->
+    <title>7B509386-3913-48A4-BFAB-7414EA77F8F2</title>
+    <desc>Created with sketchtool.</desc>
+    <g id="Home-Page" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="T001_HomePage_State3_Desktop" transform="translate(-130.000000, -2091.000000)">
+            <g id="explore-our-products" transform="translate(0.000000, 1702.000000)">
+                <g id="products" transform="translate(42.000000, 87.000000)">
+                    <g id="credit-cards" transform="translate(0.000000, 290.000000)">
+                        <g id="icon" transform="translate(88.000000, 12.000000)">
+                            <rect id="Rectangle-3-Copy" x="5" y="5" width="50" height="50"></rect>
+                            <g id="Group-67" transform="translate(8.000000, 15.000000)" stroke="#333333" stroke-width="2">
+                                <path d="M1,0 L44,0 C44.5522847,-1.01453063e-16 45,0.44771525 45,1 L45,29.4054054 C45,29.9576902 44.5522847,30.4054054 44,30.4054054 L1,30.4054054 C0.44771525,30.4054054 6.76353751e-17,29.9576902 0,29.4054054 L0,1 C-6.76353751e-17,0.44771525 0.44771525,1.01453063e-16 1,0 Z" id="Rectangle-7" fill="#FFFFFF"></path>
+                                <path d="M7.08108108,6.08108108 L12.3783784,6.08108108 C12.9306631,6.08108108 13.3783784,6.52879633 13.3783784,7.08108108 L13.3783784,12.3783784 C13.3783784,12.9306631 12.9306631,13.3783784 12.3783784,13.3783784 L7.08108108,13.3783784 C6.52879633,13.3783784 6.08108108,12.9306631 6.08108108,12.3783784 L6.08108108,7.08108108 C6.08108108,6.52879633 6.52879633,6.08108108 7.08108108,6.08108108 Z" id="Rectangle-7" fill="#D7DF23"></path>
+                                <path d="M6.08108108,19.4594595 L40.1351351,19.4594595" id="Line-18"></path>
+                                <path d="M6.08108108,24.3243243 L19.4594595,24.3243243" id="Line-18"></path>
+                                <path d="M23.1081081,24.3243243 L30.4054054,24.3243243" id="Line-18"></path>
+                                <path d="M32.8378378,7.2972973 L40.1351351,7.2972973" id="Line-18"></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

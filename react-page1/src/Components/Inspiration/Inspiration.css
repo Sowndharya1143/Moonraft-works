@@ -1,0 +1,21 @@
+.Inspiration{
+    margin:34px 12px;
+    background-color: white;
+}
+.h4{
+        font-family: "Oswald";
+        font-weight: 400;
+        font-size: 20px;
+        padding:20px 15px;
+        background-color:black;
+        color:white;
+}
+.Image{
+    width:45%;
+    padding:10px;
+}
+@media only screen and (max-width : 500px){
+    .Image{
+        width:95%;
+    }
+}

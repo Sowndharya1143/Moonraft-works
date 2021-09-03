@@ -1,0 +1,42 @@
+.default{
+    max-width: 1280px;
+    margin: 0px auto;
+    
+}
+.logoimage{
+    
+    padding:15px 10px;
+   
+}
+.loginbutton{
+    border:2px solid white;
+    border-radius: 80px;
+    background-color: blueviolet;
+    color:white;
+    float:right;
+    margin:20px 25px;
+    padding-top:1%;
+    padding-bottom: 1%;
+    width:15%;
+}
+.heading{
+    color:white;
+    font: 40px muli-light;
+
+}
+.headingsection{
+    padding:35px;
+    text-align:center;
+    /* width:50%; */
+}
+.subheading{
+    color:white;
+    font: 22px muli-light;
+    letter-spacing:1.2px;
+}
+@media screen and (min-width:325px) and (max-width: 600px){
+    .loginbutton{
+        padding:1% 0%;
+        width:20%;
+    }
+}

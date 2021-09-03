@@ -1,0 +1,38 @@
+.GallerySection{
+    max-width: 1140px;
+    margin: 0px auto;
+    padding: 60px 0px;
+    text-align: center;
+}
+.GallerySection h1{
+    font-size: 60px;
+    color: #000;
+    letter-spacing: 2px;
+    font-weight: 400;
+    font-family: 'Patrick Hand', cursive;
+}
+.GallerySection p{
+    font-size: 16px;
+    color: #888;
+    letter-spacing: 0px;
+    line-height: 26px;
+}
+.GalleryImages{
+    padding: 40px 0px 0px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+@media screen and (max-width: 426px) and (min-width: 319px) {
+.GalleryImages{
+    flex-direction: column;
+}
+.GallerySection{
+    padding:30px 0px;
+}
+.GallerySection p{
+    padding:0px 15px;
+}
+
+}

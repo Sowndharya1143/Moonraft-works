@@ -1,0 +1,8 @@
+.Icon{
+    padding:5px;
+    display: inline-block;
+    
+}
+.Icon:hover{
+    opacity: 0.60;
+}

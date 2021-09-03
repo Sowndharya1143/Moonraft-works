@@ -1,0 +1,61 @@
+.BlogCard{
+    flex:1;
+    max-width: 31.33%;
+    margin:10px;
+    position: relative;
+}
+.BlogImage{
+    width:100%;
+}
+.YellowDate{
+     background: #ffc107;
+     width: 19%;
+     padding: 15px 0px;
+     top: 10px;
+     position: absolute;
+     left:-10px;
+     font-size: 14px;
+     color: #c50e1f;
+}
+.BlogText
+{
+    background: #f7f7f7;
+    position: absolute;
+    top: 125px;
+    width: 77%;
+    left: 25px;
+    padding: 20px 15px;
+    text-align: left;
+}
+.BlogText h4{
+    font-size: 25px;
+    color: #3b9974;
+    font-weight: 400;
+}
+.BlogText p{
+    font-size: 14px;
+    color: #888;
+    letter-spacing: 1px;
+    line-height: 27px;
+    font-weight: 500;
+}
+.BlogText div.DateTags span{
+    font-size: 14px;
+    color: #c50e1f;
+    font-weight: 400;
+}
+.BlogText div.DateTags{
+    padding: 10px 0px;
+}
+@media screen and (max-width: 426px) and (min-width: 319px) 
+{
+.BlogText{
+    position: unset;
+    width:100%;
+    box-sizing: border-box;
+}
+.BlogCard{
+    width:94%;
+    max-width: unset;
+}
+}

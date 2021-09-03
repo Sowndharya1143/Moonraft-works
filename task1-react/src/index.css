@@ -1,0 +1,26 @@
+/* body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+} */
+
+@font-face{
+  font-family:muli-light;
+  src:url(./Font/muli-light-webfont.woff);
+}
+@font-face{
+  font-family:muli-regular;
+  src:url(./Font/muli-regular-webfont.woff);
+}
+@font-face{
+  font-family: Muli-SemiBold;
+  src:url(./Font/muli-semibold-webfont.woff);
+}
+@font-face{
+  font-family:muli-bold;
+  src:url(./Font/muli-bold-webfont.woff);
+}
+@font-face{
+  font-family:muli-bolditalic;
+  src:url(./Font/muli-bolditalic-webfont.woff);
+}

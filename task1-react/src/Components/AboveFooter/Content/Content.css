@@ -1,0 +1,56 @@
+#hex4 {
+    height: 60px;
+    width: 60px;
+}
+#color4 {
+    background-color:  #4873de; 
+}
+
+
+.footerhex{
+    float:right;
+}
+.footerdiv{
+    width:100%;
+    display:inline-block;
+   
+}
+.abovefooter{
+    color:#9b9b9b;
+    font:24px Muli-SemiBold;
+    letter-spacing: 1.2px;
+    text-align: center;
+    width:100%;
+    
+}
+.hexagon-wrapper {
+    display: inline-block;
+    margin: 20px;
+    position: relative;
+    text-align: center;
+}
+.hexagon {
+    display: inline-block;
+    height: 100%;
+    width: calc(100% * 0.57735);
+}
+.hexagon:before {
+    background-color: inherit;
+    content: '';
+    height: inherit;
+    position: absolute;
+    right: calc((100% / 2) - ((100% * 0.57735) / 2));
+    width: inherit;
+    top: 0;
+    transform: rotateZ(60deg);
+}
+.hexagon:after {
+    background-color: inherit;
+    content: '';
+    position: absolute;
+    height: inherit;
+    right: calc((100% / 2) - ((100% * 0.57735) / 2));
+    top: 0;
+    transform: rotateZ(-60deg);
+    width: inherit;
+}

@@ -1,0 +1,30 @@
+.Footer{
+    background-color:#616161;
+    padding:45px;
+    font-family: "Open Sans";
+    font-size:15px;
+    line-height: 1.5;
+
+}
+.button{
+    border:none;
+    outline: none;
+    cursor: pointer;
+    background-color: black;
+    color:white;
+    padding:12px 24px;
+    text-decoration: none;
+}
+.button:hover{
+    background-color: #ccc;
+    color:black;
+}
+.Poweredby{
+    color:white;
+    margin:40px 0px 0px 0px;
+
+}
+.ahref{
+    color:white;
+    cursor: pointer;
+}

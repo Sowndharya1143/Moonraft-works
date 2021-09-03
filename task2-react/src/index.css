@@ -1,0 +1,26 @@
+
+@font-face{
+  font-family:roboto-bold;
+  src:url(./Font/Roboto-Bold.ttf);
+}
+@font-face{
+  font-family:orbitron;
+  src:url(./Font/Orbitron-Regular.ttf);
+}
+@font-face{
+  font-family:roboto-regular;
+  src:url(./Font/Roboto-Regular.ttf);
+}
+@font-face{
+  font-family:tele-grotesk-fett;
+  src:url(./Font/Tele-Grotesk-Fett.ttf);
+}
+@font-face{
+  font-family:tele-grotesk-norm;
+  src:url(./Font/Tele-Grotesk-Norm.ttf);
+}
+@font-face{
+  font-family:tele-grotesk-ultr;
+  src:url(./Font/Tele-Grotesk-Ultr.ttf);
+}
+

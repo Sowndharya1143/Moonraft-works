@@ -1,0 +1,30 @@
+.appimage1{
+    padding-left:10px;
+    width:15px;
+}
+.appimage2{
+    padding-left:10px;
+    width:20px;
+}
+.appimage3{
+    padding-left:10px;
+    width:25px;
+}
+.appimage4{
+    padding-left:10px;
+    width:25px;
+}
+.footerchild{
+    width:400px;
+}
+.socialappimage{
+    max-width: 300px;
+   
+}
+.copyrightdiv{
+    color:white;
+    font:12px muli-light;
+    line-height: 12px;
+    letter-spacing: 0.3px;
+    padding:25% 0%;
+}

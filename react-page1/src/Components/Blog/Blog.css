@@ -1,0 +1,81 @@
+.Blog{
+    margin:25px 24px;
+    padding:12px 24px;
+    line-height: 1.5;
+    background-color: white;
+}
+.title{
+    text-align: center;
+    font-size:24px;
+    font-family: "Oswald";
+    font-weight: 400;
+    margin:10px 0px;
+}
+.title2{
+    text-align: center;
+    font-size: 18px;
+    font-family: "Oswald";
+    margin:10px 0px;
+}
+.span{
+    opacity: 0.60;
+}
+.Image{
+    width:100%;
+}
+.Content{
+    font-family: "Open Sans";
+    font-size: 15px;
+    line-height: 1.5;
+    text-align: justify;
+    margin:10px 0px;
+}
+.ShortContent{
+    font-weight: bold;
+}
+.Parentclass{
+    display: flex; 
+    justify-content: space-between; 
+    margin:30px 0px;
+    font-family: "Open Sans";
+}
+.leftClass{
+    border:1px solid #ccc;
+    outline: none;
+    cursor:pointer;
+    background-color: white;
+    font-size:15px;
+    padding:8px 16px;
+    line-height: 1.5;
+    font-weight:bold;
+    display: flex;
+    justify-content: space-between;
+}
+.leftClass:hover{
+    background-color: #f1f1f1;
+}
+.rightClass:hover{
+    background-color: #f1f1f1;
+    color:black;
+}
+.rightClass{
+    border:none;
+    outline: none;
+    cursor: pointer;
+    background-color:black;
+    font-size:15px;
+    color:white;
+    padding:8px 16px;
+    line-height: 1.5;
+    font-weight:bold;
+}
+.one{
+    background-color: white;
+    padding:2px 8px;
+    color:black;
+    font-weight: 200;
+}
+.hrline{
+    margin:30px 0px ;
+    border:1px solid #f1f1f1;
+}

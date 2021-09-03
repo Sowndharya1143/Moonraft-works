@@ -1,0 +1,29 @@
+.ContactUs{
+    text-align: center;
+    padding:80px 0px;
+    max-width: 1140px;
+    margin: 0px auto;
+}
+.ContactUs h1{
+    font-size: 60px;
+    color: #000;
+    letter-spacing: 2px;
+    font-weight: 400;
+    text-transform: capitalize;
+    font-family: 'Patrick Hand', cursive;
+}
+.ContactUs p{
+    font-size: 16px;
+    color: #888;
+    letter-spacing: 0px;
+    line-height: 26px;
+}
+@media screen and (max-width: 426px) and (min-width: 319px) 
+{
+.ContactUs{
+    padding:30px 0px;
+}
+.ContactUs p{
+    padding:0px 15px;
+}
+}

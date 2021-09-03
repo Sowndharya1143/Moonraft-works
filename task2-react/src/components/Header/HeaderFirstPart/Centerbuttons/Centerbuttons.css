@@ -1,0 +1,73 @@
+.headerCenterList{
+    display:flex;
+}
+.fileIcon
+{
+    color:#ffffff;
+    padding:0% 4%;
+}
+.starIcon{
+    color:#ffffff;
+    padding:0% 3%;
+}
+.plusIcon{
+    color:#ffffff;
+    padding:0% 3%;
+}
+.Rectangle1{
+    align-items: center;
+   border-radius: 100px 0px 0px 100px;
+   background-color: transparent;
+   border: solid 1px #e20074;
+   cursor:pointer;
+   color: #ffffff;
+   display: flex;
+   display:inline-block;
+   font-size:14px;
+   font-family:  tele-grotesk-ultr; 
+   height: 36px;
+   justify-content: center;
+   outline:none;
+   width: 120px;
+ 
+  }
+  .Rectangle1:hover,.Rectangle2:hover,.Rectangle3:hover{
+    background-color: #e20074;
+}
+  .Rectangle2 {
+    align-items: center;
+    background-color: transparent;
+    border: solid 1px #e20074;
+    color: #ffffff;
+    cursor: pointer;
+    display:inline-block;
+    display: flex;
+    font-size:14px;
+    font-family:  tele-grotesk-ultr;
+    height: 36px;
+    justify-content: center;
+    outline:none;
+    width: 120px; 
+  }
+  .Rectangle3 {
+    align-items: center;
+    border-radius: 0px 100px 100px 0px;
+    background-color:transparent;
+    border: solid 1px #e20074; 
+    color: #ffffff;
+    cursor: pointer;
+    display:inline-block;
+    display: flex;
+    font-size:14px;
+    font-family:  tele-grotesk-ultr;
+    height: 36px;
+    justify-content: center;
+    outline:none;
+    width: 120px;  
+  }
+
+  @media screen and (min-width:325px) and (max-width:700px){
+  .headerCenterList{
+      display:none;
+  }
+}

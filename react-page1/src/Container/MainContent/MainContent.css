@@ -1,0 +1,10 @@
+.Maincontent{
+    width:66.66%;
+    background-color: #f1f1f1;
+    float:left;
+}
+@media only screen and (max-width :990px){
+    .Maincontent{
+        width:100%;
+    }
+}

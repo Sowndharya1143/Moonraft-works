@@ -1,0 +1,84 @@
+.banner{
+    background-image: url(../../images/b1.jpg);
+    background-repeat: no-repeat;
+    min-height: 800px;
+    height: 800px;
+    background-position: center;
+    background-size: cover;
+}
+.Header {
+    background:rgba(230, 230, 230, 0.5);
+    padding:15px 36px;
+    display: flex;
+    justify-content: space-between;
+    /* margin: 0px auto;
+    max-width: 2080px; */
+}
+.LogoParent{
+    display:flex;
+    /* flex:1.5; */
+}
+.Logo{
+    font-size: 43px;
+    color:#ffffff;
+    font-weight: 400;
+    margin:0px;
+    padding: 0px 10px;
+    box-sizing: border-box;
+}
+.LogoParent h6{
+    margin:0px;
+    line-height: 21px;
+    color: #ffc107;
+    font-size: 13px;
+    border-left: 2px solid #ffffff;
+    padding: 5px 10px;
+}
+ul.Menu{
+    list-style-type: none;
+    display: flex;
+    padding:0px;
+    justify-content: center;
+    align-items: center;
+    /* flex:1; */
+}
+ul.Menu li a{
+    text-decoration:none;
+    color:black;
+    font-weight: 700;
+    font-size: 14px;
+    padding: 8px 25px;
+}
+.Menubtn{
+    background-color: #5facbe;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 50px;
+    color: #ffffff;
+    letter-spacing: 1px;  
+}
+.MobileMenu{
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+@media screen and (max-width: 426px) and (min-width: 319px) {
+    ul.Menu{
+        flex-direction: column;
+        background-color: #ffffff;
+        display: none;
+        top: 27%;
+        width: 90%;
+        left: 20px;
+        position: absolute;
+    }
+    .MobileMenu{
+        display: flex;
+    }
+    ul.Menu li{
+        text-align: center;
+        padding: 10px;
+    }
+}

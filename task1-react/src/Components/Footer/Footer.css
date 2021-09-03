@@ -1,0 +1,14 @@
+.footer1{
+    max-width:1280px;
+    margin-top:0px;
+    overflow:auto;
+    padding:6% 4%;
+    display: flex;
+    justify-content: space-around;
+    margin:0px auto;
+}
+@media screen and (min-width:325px) and (max-width: 550px){
+    .footer1{
+        display: block;
+    }
+}

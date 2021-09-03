@@ -1,0 +1,169 @@
+.boxClass{
+    border-radius: 7px;
+    background-color: #ffffff;
+    box-sizing: border-box;
+    float:left;
+    margin:0.5% 0.5%;
+    padding:2% ;
+    width: 23%;
+  }
+  .boxClass:hover{
+      box-shadow: 0 0 6px  rgba(0, 0, 0, 0.5);
+  }
+  .starIconBox{
+    display:flex;
+    justify-content: flex-end;
+    width:100%;
+    margin: 0px;
+}
+.financeClass{
+    color: #7b808a;
+    font-family: Tele-Grotesk-Norm;
+    font-size: 12px;
+    height: 14px;
+    padding:3% 0%;
+    margin: 0px;
+}
+.line{
+       border: dotted 1px #979797;
+       width: 100%;
+       height:0px;
+       margin: 5px 0px;
+
+}
+.title{
+    color:#e20074;
+    font-family: tele-grotesk-ultr;
+    font-size:19px;
+    margin: 0px;
+}
+li{
+    list-style-type: none;
+}
+.targetClass{
+    display:flex;
+    justify-content: space-between;
+    padding:7% 0%;
+    margin: 0px;
+}
+.ericson{
+    color:#7b808a;
+    background-color: #f5f5f5;
+    border: solid 1px #7b808a;
+    font-size:12px;
+    font-family: roboto;
+    height: 14px;
+    margin: 0px;
+    opacity: 0.5;
+    width: 41px;
+}
+.hiveHadoop{
+    color:#7b808a;
+    background-color: #f5f5f5;
+    border: solid 1px #7b808a;
+    font-size:12px;
+    font-family: roboto;
+    height: 14px;
+    opacity: 0.5;
+     width: 72px;
+     margin: 0px;
+}
+.boxLine1Class{
+    display:flex;
+    justify-content: space-between;
+    padding:3% 0%;
+    margin: 0px;
+}
+.number{
+    color:#7b808a;
+    font-size: 12px;
+    font-family: tele-grotesk-ultr;
+    width:100%;
+    margin: 0px;
+}
+.date{
+    color:#7b808a;
+    font-family: tele-grotesk-norm;
+    font-size: 12px; 
+    width:16%;  
+    margin: 0px;
+}
+.typeClass{
+    color: #333333;
+    font-family: tele-grotesk-norm;
+    font-size: 12px; 
+    margin: 0px;   
+}
+.barClass{
+    background-color: #60b602;
+    height: 5px;
+    width: 50px;
+    margin: 0px;
+}
+@media screen and (min-width:325px) and (max-width:520px){
+    .boxClass{
+        width:84%;
+        margin:2% 5%;
+    }
+}
+@media screen and (min-width:520px) and (max-width:870px){
+    .boxClass{
+        width:45%;
+    }
+}
+@media screen and (min-width:870px) and (max-width:1090px){
+    .boxClass{
+        width:28%;
+    }
+}
+
+.buttonview{
+    background-color: #e20074;
+    border-radius: 20px;
+    border:none;
+    color:white;
+    height:50px;
+    margin-bottom:2%;
+    width:100px;
+    outline:none;
+
+}
+table {
+    align-content: center;
+    border-collapse: collapse;
+    display:flex;
+    font-family: arial, sans-serif;
+    justify-content: center;  
+    padding:2% 0%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 15px;
+}
+.buttonClass{
+    width:100%;
+    justify-content: center;
+    display: flex;
+    align-content: center;
+}
+.sideNavpop {
+    /* width: 100%;
+    position: fixed;
+    z-index: 1;
+    bottom: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    color:white;
+    height:400px; */
+    height:400px;
+    width:100%;
+    background-color: #333333;
+    
+}
+.popbox{
+ padding:5% 0%;
+ 
+}

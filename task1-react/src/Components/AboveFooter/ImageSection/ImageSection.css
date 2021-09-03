@@ -1,0 +1,23 @@
+.imgsection{
+    
+    max-width:1280px;
+    
+    margin:0px auto;
+    
+}
+
+.companylogo{
+    max-width:160px;
+    margin:45px 20px;
+    display:inline-block;
+}
+@media screen and (min-width:325px) and (max-width: 1000px){
+    .imgsection{
+        display: none;
+    }
+    }
+@media screen and (min-width:1000px) and (max-width: 1220px){
+    .companylogo{
+        max-width: 125px;
+    }
+}

@@ -1,0 +1,42 @@
+.StoreInfo{
+    background: #ececec;
+    display: flex;
+    max-width: 1140px;
+    margin: 0px auto;
+    padding: 60px 0px;
+}
+.RedHeading{
+    font-size: 35px;
+    color: #c50e1f;
+    letter-spacing: 1px;
+    font-weight: 400;
+    line-height: 34px;
+    padding:10px 0px;
+    font-family: 'Patrick Hand', cursive;
+}
+.Year{
+    font-size: 14px;
+    color: #c50e1f;
+    font-weight: 400;
+    padding:5px 0px;
+}
+.StoreInfo p{
+    font-size: 14px;
+    color: #888;
+    letter-spacing: 1px;
+    line-height: 27px;
+}
+.StoreInfo img{
+    width: 44%;
+    margin: 0px 20px;
+}
+@media screen and (max-width: 426px) and (min-width: 319px) {
+    .StoreInfo{
+        flex-direction: column;
+        padding:30px 15px;
+    }
+    .StoreInfo img{
+        width: 100%;
+        margin: 0px;
+    }
+}

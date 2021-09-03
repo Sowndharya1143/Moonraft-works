@@ -1,0 +1,42 @@
+.BlogSection{
+    background: #ececec;
+    padding-bottom: 50px;
+}
+.BlogDiv{
+    max-width: 1140px;
+    margin: 0px auto;
+    padding: 60px 0px;
+    text-align: center;
+
+}
+.BlogDiv h1{
+    font-size: 60px;
+    color: #000;
+    letter-spacing: 2px;
+    font-weight: 400;
+    text-transform: capitalize;
+    font-family: 'Patrick Hand', cursive;
+}
+.Subcontent{
+    font-size: 16px;
+    color: #888;
+    letter-spacing: 0px;
+    line-height: 26px;
+}
+.BlogCards{
+    display: flex;
+    flex-wrap: wrap;
+    padding:20px 0px;
+}
+@media screen and (max-width: 426px) and (min-width: 319px) 
+{
+.BlogDiv{
+    padding: 30px 0px;
+}
+.Subcontent{
+    padding:0px 10px;
+}
+.BlogCards{
+    flex-direction: column;
+}
+}

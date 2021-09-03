@@ -1,0 +1,446 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'OpenSans';
+    src: url('../font/open-sans.regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'OpenSans-SemiBold';
+    src: url('../font/open-sans.semibold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'OpenSans-Light';
+    src: url('../font/open-sans.light.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'OpenSans-Bold';
+    src: url('../font/open-sans.bold.ttf') format('truetype');
+}
+
+.header-section {
+    max-width: 1280px;
+    margin: 0px auto;
+}
+
+.header {
+    background-color: #333333;
+    display: flex;
+}
+
+.header ul {
+    list-style-type: none;
+    display: flex;
+    margin-left: 18%;
+    margin-bottom: 0px;
+}
+
+.listitem {
+    padding: 6px 8px;
+    position: relative;
+}
+
+.listitem a {
+    font-family: OpenSans-SemiBold;
+    font-size: 13px;
+    font-weight: 600;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+a.header-active,
+.listitem a:hover {
+    font-family: OpenSans-SemiBold;
+    font-size: 13px;
+    font-weight: 600;
+    color: #d7df23;
+    text-decoration: none;
+}
+
+.header-active::before {
+    content: "";
+    position: absolute;
+    top: 96.5%;
+    left: 44.5%;
+    margin-left: -5px;
+    border-width: 7px;
+    border-style: solid;
+    border-color: #333 transparent transparent transparent;
+}
+
+.mobile-number {
+    display: flex;
+    color: #ffffff;
+    padding: 6px 20px;
+    margin-left: auto;
+}
+
+.mobile-number p {
+    display: flex;
+    margin-bottom: 0px;
+}
+
+.mobile-number p img {
+    width: 20px;
+    height: 20px;
+}
+
+.mobile-number span {
+    font-family: OpenSans;
+    font-size: 13px;
+    font-weight: normal;
+}
+
+.mobile-number>span::before {
+    content: "|";
+    padding: 0px 20px;
+
+}
+
+.login-btn {
+    border: none;
+    outline: none;
+    background-color: #005899;
+    padding: 6px 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-btn img {
+    width: 19px;
+    height: 19px;
+}
+
+.login-btn span {
+    padding: 0px 12px;
+}
+
+.nav {
+    display: flex;
+    background-color: #ffffff;
+}
+
+.tata-logo {
+    padding: 14px 42px;
+}
+
+.tata-logo img {
+    width: 140px;
+    height: 15px;
+}
+
+.nav ul {
+    list-style-type: none;
+    display: flex;
+    margin-bottom: 0px;
+    padding:10px;
+}
+
+li.nav-list a{
+    font-family: OpenSans-SemiBold;
+    font-size: 13px;
+    font-weight: 600;
+    color: #333;
+    padding: 16px 7px;
+    text-decoration: none;
+}
+li.nav-list a.menu-active{
+    border-bottom: 5px solid #d7df23;
+    color: #333333;
+    font-family: OpenSans-Bold;
+    font-size: 13px;
+    font-weight: bold;
+}
+.search-btn {
+    border: none;
+    outline: none;
+    background-color: #d7df23;
+    padding: 15px 21px;
+    margin-left: auto;
+}
+
+.search-btn span:first-child {
+    width: 20px;
+    height: 20px;
+}
+
+.search-btn span:nth-child(2) {
+    font-family: OpenSans;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.carousel-section {
+    max-width: 1280px;
+    margin: 0px auto;
+}
+
+#carouselExampleSlidesOnly .carousel-indicators {
+    left: 48px;
+    justify-content: flex-start;
+    padding: 0px;
+    margin: 0px;
+    bottom: 30px;
+}
+
+#carouselExampleSlidesOnly ol li {
+    width: 6px;
+    height: 6px;
+    margin: 0px 5px;
+    border-radius: 50%;
+}
+
+#carouselExampleSlidesOnly .carousel-indicators .active {
+    width: 30px;
+    border-radius: 4px;
+}
+
+.carousel-bg::after {
+    display: block;
+    position: absolute;
+    height: 350px;
+    width: 100%;
+    content: '';
+    top: 0;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.82), rgba(0, 0, 0, 0));
+}
+
+.carousel-item img {
+    height: 350px;
+}
+
+.carousel-text {
+    position: absolute;
+    padding-left: 42px;
+    right: 0px;
+    left: 0px;
+    top: 33%;
+    width: 50%;
+    bottom: 0px;
+}
+
+.carousel-text h3 {
+    font-family: OpenSans-Light;
+    font-size: 20px;
+    font-weight: 300;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.carousel-text h1 {
+    font-size: 30px;
+    font-weight: OpenSans-Bold;
+    color: #d7df23;
+}
+
+.carousel-text p {
+    font-family: OpenSans;
+    font-size: 14px;
+    font-weight: normal;
+    color: #ffffff;
+}
+
+.carousel-text button {
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.1);
+    border: solid 1px #ffffff;
+    outline: none;
+    cursor: pointer;
+    color: #ffffff;
+    background-color: transparent;
+    padding: 7px 18px;
+}
+
+.search-section {
+    padding: 45px 0px;
+    background-color: #f3f3ea;
+    text-align: center;
+}
+
+.search-section span {
+    font-family: OpenSans-Light;
+    font-size: 20px;
+    font-weight: 300;
+    columns: #333333;
+}
+
+.search-section input[type="text"] {
+    width: 440px;
+    height: 40px;
+    border: none;
+    border-bottom: 1px solid #333333;
+    outline: none;
+    margin-left: 5px;
+    margin-right: 30px;
+    background-color: transparent;
+}
+
+.search-section input::placeholder {
+    font-family: OpenSans-SemiBold;
+    font-size: 20px;
+    /* font-weight: 600; */
+    color: #b5c1c4;
+}
+
+.search-section button {
+    background-color: #005899;
+    font-family: OpenSans-SemiBold;
+    font-size: 14px;
+    font-weight: 600;
+    color: #ffffff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 10px 20px;
+}
+
+.product-section {
+    max-width: 1280px;
+    margin: 0px auto;
+    background-color: #333333;
+    padding: 30px 42px;
+}
+
+.product-section h1 {
+    font-family: OpenSans-Bold;
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffffff;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cardItem {
+    width: 25%;
+    text-align: center;
+    background-color: #ffffff;
+    padding: 0px 90px;
+    border: 0.5px solid #f3f3ea;
+}
+
+.cardItem img {
+    width: 50px;
+    height: 50px;
+    box-sizing: content-box;
+    padding: 24px 0px 12px 0px;
+}
+
+.cardItem h3 {
+    padding: 0px 0px 20px 0px;
+    font-family: OpenSans-SemiBold;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #333333;
+}
+
+.showmore,
+.showless {
+    text-transform: uppercase;
+    padding: 60px 0px;
+}
+
+.hidden-cardItem {
+    flex-wrap: wrap;
+    display: none;
+}
+
+.odd-card {
+    display: none;
+}
+
+.showless span,
+.showmore span {
+    font-family: OpenSans-SemiBold;
+    font-size: 14px;
+    font-weight: 600;
+    color: #005899;
+    cursor: pointer;
+}
+
+.menu-icon,
+.search-icon,
+.user-icon {
+    color: #005899;
+    padding: 10px;
+    display: none;
+}
+
+.tata-logo span {
+    display: none;
+}
+
+.user-icon {
+    font-size: 18px;
+}
+
+@media screen and (max-width: 426px) and (min-width: 319px) {
+    .header ul {
+        display: none;
+    }
+
+    .login-btn,
+    .nav ul,
+    .search-btn {
+        display: none;
+    }
+
+    .tata-logo {
+        padding: 6px 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .tata-logo span {
+        display: block;
+    }
+
+    .carousel-text {
+        width: 100%;
+    }
+
+    .search-section input[type="text"] {
+        width: 88%;
+        margin: 0px;
+    }
+
+    .search-section button {
+        margin-top: 30px;
+        width: 90%;
+    }
+
+    .cardItem {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        padding: 0px;
+        justify-content: space-around;
+    }
+
+    .cardItem img {
+        width: 33px;
+        height: 33px;
+    }
+
+    .cardItem h3 {
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .showless,
+    .showmore {
+        padding: 24px;
+    }
+}

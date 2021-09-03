@@ -1,0 +1,35 @@
+.smallImages{
+    width:100px;
+    height:100px;
+}
+.List{
+    display: flex;
+    flex:1;
+}
+.ListText{
+    text-align: right;
+    padding: 10px 15px;
+    display: flex;
+    flex-direction: column;
+}
+.Amount{
+    flex:1;
+}
+.Amount span{
+    font-size: 14px;
+    color: #c50e1f;
+}
+.Listtitle{
+    font-size: 19px;
+    color: #28a745;
+    font-weight: 400;
+    line-height: 1.2;
+    flex:1;
+}
+.ListText p{
+    font-size: 14px;
+    color: #888;
+    letter-spacing: 1px;
+    line-height: 27px;
+    flex:1;
+}

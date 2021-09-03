@@ -1,0 +1,10 @@
+.ReadMoreBtn{
+    outline:none;
+    cursor: pointer;
+    background: #3e3e3e;
+    color:#ffffff;
+    padding:10px;
+    font-size: 15px;
+    font-weight: 500;
+    margin:30px 0px;
+}

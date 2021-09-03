@@ -1,0 +1,23 @@
+.NameBlog{
+    margin:24px 12px;
+}
+.Image{
+    width:100%;
+    display: block;
+}
+.Content{
+    background-color:black;
+    color:white;
+} 
+.h4{
+    font-family: "Oswald";
+    font-weight: 400;
+    font-size: 20px;
+    padding:10px 15px;
+}  
+.para{
+    font-family: "Open sans";
+    font-size: 15px;
+    line-height: 1.5;
+    padding:10px 15px;
+}

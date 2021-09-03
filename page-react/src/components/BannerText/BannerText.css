@@ -1,0 +1,65 @@
+
+.BannerText{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+.Icons{
+    display: flex;
+    margin:0px;
+    padding:20px;
+}
+ul.Icons li{
+    width:35px;
+    height:35px;
+    border-radius: 50%;
+    text-decoration: none;
+    list-style-type: none;
+    margin:5px;
+}
+ul.Icons li a{
+    text-decoration: none;
+}
+ul.Icons li a span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    color:#ffffff;
+}
+.Facebook{
+    background: #0078d7;
+}
+.Twitter{
+    background: #1da1f2;;
+}
+.Rss{
+    background: #f26522;
+}
+.BannerHeading{
+    text-align: center;
+}
+.BannerHeading h5{
+    color:#ffffff;
+    font-size:30px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    display: block;
+}
+.BannerHeading h4{
+    color:#ffffff;
+    font-size: 6em;
+    font-weight: 500;
+    letter-spacing: 2px;
+    font-family: 'Patrick Hand', cursive;
+}
+.BannerHeading p{
+    color: #dadada;
+    font-size: 15px;
+    text-shadow: 2px 2px 8px #000;
+    line-height: 27px;
+    letter-spacing: 1px;
+
+}

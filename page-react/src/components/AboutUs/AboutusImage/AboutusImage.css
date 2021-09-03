@@ -1,0 +1,26 @@
+.AboutusImage{
+    position: relative;
+}
+
+.AboutusImage img:last-child{
+    position: absolute;
+    right: -16%;
+    top: 42%;
+    width: 82%;
+}
+.AboutusImage img{
+    box-shadow: -2px -2px 5px #7b7b7b;
+}
+@media screen and (max-width: 426px) and (min-width: 319px) {
+.AboutusImage{
+    position: unset;
+}
+.AboutusImage img{
+    width:100%;
+}
+.AboutusImage img:last-child{
+    position: unset;
+    width:100%;
+    margin:15px 0px;
+}
+}

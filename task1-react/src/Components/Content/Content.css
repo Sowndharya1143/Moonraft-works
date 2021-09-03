@@ -1,0 +1,29 @@
+.contenthexagon{
+    display:inline-block;
+    padding-left:5%;
+    padding-right: 5%;
+    padding-bottom:30px;
+
+}
+.content{
+    color:white;
+    font:20px muli-regular;
+    letter-spacing: 0.5px;
+    line-height: 30px;
+    width:44%;
+   
+    margin-left:4%;
+    margin-right:4%;
+    float:left;
+    display:inline-block;
+   
+}
+@media screen and (min-width:325px) and (max-width: 950px){
+.content{
+    margin:0%;
+    width:100%;
+}
+.contenthexagon{
+    padding:0%;
+}
+}

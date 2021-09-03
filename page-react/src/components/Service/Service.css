@@ -1,0 +1,27 @@
+.Service{
+    text-align: center;
+    max-width: 1140px;
+    margin: 0px auto;
+    padding: 60px 0px;
+}
+
+
+.Service h1{
+    font-size: 60px;
+    color: #000;
+    letter-spacing: 2px;
+    font-weight: 400;
+    font-family: 'Patrick Hand', cursive;
+}
+
+.Service p{
+    font-size: 16px;
+    color: #888;
+    letter-spacing: 0px;
+    line-height: 26px;
+}
+@media screen and (max-width: 426px) and (min-width: 319px) {
+.Service p{
+    padding:0px 15px;
+}
+}

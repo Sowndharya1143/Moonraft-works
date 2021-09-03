@@ -1,0 +1,31 @@
+.ListSection{
+    background: rgb(236, 236, 236);
+}
+.ListSection div.ListMargin{
+    display: flex;
+    max-width: 1140px;
+    margin: 0px auto;
+    padding: 60px 0px;
+}
+.FirstImage{
+    width: 55%;
+    height: 20%;
+}
+.RightList{
+    padding: 0px 70px;
+    display: flex;
+    flex-direction: column;
+}
+@media screen and (max-width: 426px) and (min-width: 319px) 
+{
+    .ListSection div.ListMargin{
+        flex-direction: column;
+        padding:30px 15px;
+    }
+    .ListMargin .FirstImage{
+        width:100%;
+    }
+    .RightList{
+        padding: 30px 15px;
+    }
+}

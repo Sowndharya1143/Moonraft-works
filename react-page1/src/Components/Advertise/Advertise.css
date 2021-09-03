@@ -1,0 +1,23 @@
+.Advertise{
+    margin:34px 12px;
+    background-color: white;
+}
+.h4{
+        font-family: "Oswald";
+        font-weight: 400;
+        font-size: 20px;
+        padding:20px 15px;
+        background-color:black;
+        color:white;
+}
+.adarea{
+    padding: 15px;
+    height: 200px;
+}
+.area{
+    padding: 19% 35%;
+    background-color: #f1f1f1;
+    font-family:"Open Sans";
+    font-size: 15px;
+    line-height: 1.5; 
+}

@@ -1,0 +1,27 @@
+.ParentClass{
+    display: flex;
+    margin:24px 0px;
+}
+.name{
+    font-family: "Oswald";
+    font-size: 20px;
+    line-height: 1.5;
+    font-weight: 400;
+    margin:10px 0px;
+}
+.date{
+    opacity: 0.60;
+    font-size:15px;
+}
+.para{
+    font-family: "Open Sans";
+    font-size: 15px;
+    line-height: 1.5;
+}
+.Image{
+    width:91px;
+    height: 100px;
+}
+.Content{
+    margin:0px 30px;
+}

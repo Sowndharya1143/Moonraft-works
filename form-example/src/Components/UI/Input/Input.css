@@ -1,0 +1,19 @@
+.Input{
+    display: block;
+    border:1px solid #eee;
+    margin:0px auto;
+    margin-top:15px;
+    margin-bottom:15px;
+    width:300px;
+    height:30px;
+    outline:none;
+    font-size:14px;
+}
+.Check{
+    padding:20px 0px;
+}
+.Dropdown{
+    margin:0 auto;
+    width:300px; 
+    height:30px;
+}

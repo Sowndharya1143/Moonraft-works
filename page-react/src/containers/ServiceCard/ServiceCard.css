@@ -1,0 +1,30 @@
+.Card{
+    max-width: 26.333333%;
+    box-shadow: 1px 1px 7px #a2a2a2;
+    padding: 40px 20px;
+    margin: 20px 15px;
+}
+.Card:hover{
+    background: #ffc107;
+}
+.Card h4{
+    font-size: 25px;
+    color: #3b9974;
+    font-weight: 400;
+    line-height: 1.2;
+}
+.Card p{
+    font-size: 14px;
+    color: #888;
+    letter-spacing: 1px;
+    line-height: 27px;
+}
+.Card img{
+    border-radius: 50%;
+    box-shadow: 1px 1px 7px #a2a2a2;
+}
+@media screen and (max-width: 426px) and (min-width: 319px) {
+    .Card{
+        max-width: unset;
+    }
+}

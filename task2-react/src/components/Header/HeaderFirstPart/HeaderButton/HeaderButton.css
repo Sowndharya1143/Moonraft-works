@@ -1,0 +1,20 @@
+.option {
+    align-items: center;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+    background-color: transparent;
+    border-radius: 100px;
+    border:1px solid #ffffff;
+    color:#ffffff;
+    cursor: pointer;
+    display: flex;
+    font-family: tele-grotesk-ultr;
+    font-size: 14px;
+    height: 36px;
+    justify-content: center;
+    margin:0% 1%;
+    outline:none;
+    width: 158px;
+}
+  .option:hover{
+    background-color: #e20074;
+  }

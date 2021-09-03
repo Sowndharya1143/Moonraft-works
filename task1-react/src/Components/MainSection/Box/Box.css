@@ -1,0 +1,63 @@
+.smallbox{
+    width:308px;
+    margin:16px;
+    float:left;
+    box-sizing: border-box;
+    
+}
+.boxfooter{
+    background-color:#fdd676;
+    max-height:70px;
+    height:70px;
+    overflow:auto;
+}
+
+.boxheaddiv{
+    background-color:rgba(60, 75, 117, 0.5);
+    background-image: url("../../../assets/Artboard.png");
+    background-blend-mode: darken;
+    height:270px;
+    
+}
+@media screen and (min-width:325px) and (max-width: 750px){
+    .smallbox{
+        margin:16px;
+    }
+}
+.boxheading{
+    color:white;
+    font:24px muli-bold;
+    line-height:30px;
+    letter-spacing: 0.4px;
+   
+    padding:30px 20px;
+}
+.lastlinebox{
+    color:#ffffff;
+    font:14px muli-bolditalic;
+    margin:85px 20px;
+}
+.subheadingbox{
+    color:#ffffff;
+    font:14px Muli-SemiBold;
+    line-height: 24px;
+    letter-spacing: 0.8px;
+    padding:0px 20px;
+}
+.timeclass{
+    color:#4a4a4a;
+    font:18px muli-regular;
+    line-height: 23px;
+    letter-spacing: 0.3px;
+    padding:20px;
+    float:right;
+}
+.basicclass{
+    color:#4a4a4a;
+    font:18px muli-regular;
+    line-height: 23px;
+    letter-spacing: 0.3px;
+    max-width:80px;
+    padding:19px;
+    float:left;
+}

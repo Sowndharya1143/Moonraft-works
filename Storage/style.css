@@ -1,0 +1,18 @@
+.container{
+    width:500px;
+}
+.list{
+    display: flex;
+    justify-content: space-between;
+    width:100%;
+    padding:10px 0px;
+}
+.list p{
+    width:40%;
+}
+.parent p:last-child{
+    text-align: right;
+}
+.alert{
+    display: none;
+}
